@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dnanmaxabs;
+})();
 })();
 </script>
 ```
@@ -175,6 +177,7 @@ var v = dnanmaxabs.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanmaxabs@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -192,6 +195,7 @@ console.log( x );
 var v = dnanmaxabs( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -289,21 +293,21 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dnanmaxabs/main/LICENSE
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmaxabs]: https://github.com/stdlib-js/stats-base-dmaxabs/tree/umd
+[@stdlib/stats/base/dmaxabs]: https://github.com/stdlib-js/stats-base-dmaxabs/tree/umd/tree/umd
 
-[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd
+[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/dnanminabs]: https://github.com/stdlib-js/stats-base-dnanminabs/tree/umd
+[@stdlib/stats/base/dnanminabs]: https://github.com/stdlib-js/stats-base-dnanminabs/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanmaxabs]: https://github.com/stdlib-js/stats-base-nanmaxabs/tree/umd
+[@stdlib/stats/base/nanmaxabs]: https://github.com/stdlib-js/stats-base-nanmaxabs/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanmaxabs]: https://github.com/stdlib-js/stats-base-snanmaxabs/tree/umd
+[@stdlib/stats/base/snanmaxabs]: https://github.com/stdlib-js/stats-base-snanmaxabs/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
