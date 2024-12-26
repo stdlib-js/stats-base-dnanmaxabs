@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`5da016a`](https://github.com/stdlib-js/stdlib/commit/5da016af618bd1e9c4581ba2c7aec3c303fde04c) - **docs:** remove extra space _(by Athan Reines)_
 -   [`3a2d4a7`](https://github.com/stdlib-js/stdlib/commit/3a2d4a787de68dbfd5a5e7522b0839db6f2a2245) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`9d3cd74`](https://github.com/stdlib-js/stdlib/commit/9d3cd7486e6339c8febd3bdc90e163477d81ceeb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmaxabs` [(#4218)](https://github.com/stdlib-js/stdlib/pull/4218) _(by Aayush Khanna, stdlib-bot)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
