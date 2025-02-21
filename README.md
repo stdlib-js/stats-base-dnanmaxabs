@@ -211,7 +211,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dnanmax.h"
+#include "stdlib/stats/strided/dnanmax.h"
 ```
 
 #### stdlib_strided_dnanmax( N, \*X, strideX )
@@ -314,7 +314,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats-strided/dmaxabs`][@stdlib/stats/strided/dmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats-base/dnanmax`][@stdlib/stats/base/dnanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/dnanmax`][@stdlib/stats/strided/dnanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/dnanminabs`][@stdlib/stats/base/dnanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmaxabs`][@stdlib/stats/base/nanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/snanmaxabs`][@stdlib/stats/base/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring NaN values.</span>
@@ -403,7 +403,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/dmaxabs]: https://github.com/stdlib-js/stats-strided-dmaxabs
 
-[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax
+[@stdlib/stats/strided/dnanmax]: https://github.com/stdlib-js/stats-strided-dnanmax
 
 [@stdlib/stats/base/dnanminabs]: https://github.com/stdlib-js/stats-base-dnanminabs
 
